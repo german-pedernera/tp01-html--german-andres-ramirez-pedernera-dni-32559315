@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Tagesschrift&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+}
+body {
+    background-color: #fff594;
+}
+header {
+    background-color: #1b3039;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 80px;
+    padding: 4px;
+}
+header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 6px 10px;
+    margin: 20px;
+    background: #eceff1;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+header .btn button{
+    justify-content:space-between;
+    align-items:center;
+    font-size: 21px;
+    margin: 10px;
+}
+.header .btn button:hover{
+    background-color:#f85e05;
+    color: #0eff1a;
+    transform: scale(1.2);
+}
+.tabla{
+        border-collapse: collapse;
+        border: 4px solid rgb(122, 112, 112);
+        letter-spacing: 4px;
+        font-size: 0.8rem;
+}
+td, tr{
+        border: 1px solid rgb(190, 190, 190);
+        padding: 10px 20px;
+}
+th{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+    background-color: blue;
+}
+.form{
+    justify-content:flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(37, 2, 235);
+    align-self: auto;
+    margin: 15px ;
+    padding: 20;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: #1b3039;
+    margin: 0 10px; 
+    padding: 20 ;
+}
+
+h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: #1b3039;
+    margin: 0 10px; 
+    padding: 10 ;
+}
+.ifram{
+        font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 22px;
+    margin-block-start: 10; 
+    padding: 20 ;
+    background-color: #0b90ce;
+    border-color: #0b90ce;
+}
+.footer{
+    background-color: #1b3039;
+    justify-self:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#eceff1;
+    text-align: right;
+    margin: 0;
+    padding: 2px 1% ;
+}
+ol, ul, li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(16, 14, 32);
+}
+pre{
+    text-align: right;
+    color: #eceff1;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 22px;
+}
+.cont1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0 4%;
+    font-size: 22px;
+    box-sizing: 50px;
+}
+.cont2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 23px;
+}
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    text-align: right;
+}
+.cont4{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 20px;
+    height: 5;
+    width: 20;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 23px;
+}
+.p22{
+    text-align: right;
+    color: red
+}
+.ubitable{
+    margin: 5px; 
+    padding: 25px;
+    border: #0b90ce;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    background-position: 50px;
+}
+.map{
+text-align: center;
+margin: 0;
+}
+.map1{
+text-align: center;
+margin: 0;
+}
+.map3{
+text-align: center;
+margin: 0;
+}
+h2, h3{
+    font-size: 28px;
+}
+.cent2{
+    text-align: left;
+}
+.color{
+    color: #0a222c;
+}
+.mar1{
+    text-align: left;
+    margin: 10px;
+    font-size: 23px;
+}
+.mar2{
+    text-align: center;
+    font-size: 30px;
+    color: #0a222c;
+}
+.mar3{
+    text-align: left;
+    margin: 10px;
+}
